@@ -19,16 +19,31 @@ p {
 }
 
 h1 {
-    color: lightcoral;
+    color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
     margin-bottom: 5rem;
-    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+li span{
+    display:block;
+    font-size: 6rem;
+    color:crimson;
 
 }
-
 p {
-    color: coral;
+    color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
 }
@@ -67,7 +82,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:black;
+    color: salmon;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +109,6 @@ align-items: center;
 justify-content: center;
 }
 .social_links a{
-    color: inherit;
+    color: brown;
     font-size: 2rem;
 }
